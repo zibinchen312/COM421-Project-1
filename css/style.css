@@ -12,9 +12,26 @@ h1 {
     /* insert here */
 }
 
-p {
-    font-size: larger;
+h2 {
     color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: large;
+}
+
+li {
+    color: white;
+    font-size: large;
 }
 
 .topnav {
@@ -41,3 +58,30 @@ p {
     background-color: #04AA6D;
     color: white;
 }
+
+/* Sidebar on hold
+.sidenav {
+    height: auto;
+    width: auto;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 10%;
+    
+    background-color: #333;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: medium;
+    text-align: right;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+*/
