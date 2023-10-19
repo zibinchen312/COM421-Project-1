@@ -1,6 +1,10 @@
+:root {
+    --text: #122c34;
+    --bgcolor: #ffffff;
+}
 
 body {
-    background-color: #333;
+    background-color: var(--bgcolor);
     width: 50%;
     margin-left: auto;  
     margin-right: auto;
@@ -8,52 +12,59 @@ body {
 
 h1 {
     text-align: center;
-    color: white;
+    color: var(--text);
     /* insert here */
 }
 
 h2 {
-    color: white;
+    color: var(--text);
 }
 
 h3 {
-    color: white;
+    color: var(--text);
 }
 
 h4 {
-    color: white;
+    color: var(--text);
 }
 
 p {
-    color: white;
-    font-size: large;
+    color: var(--text);
+    font-size: medium;
 }
 
 li {
-    color: white;
-    font-size: large;
+    color: var(--text);
+    font-size: medium;
 }
 
-.center {
+figure img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 99%;
+    height: auto;
+    width: 90%;
+}
+
+figure figcaption {
+    color: var(--text);
+    font-size: medium;
+    text-align: center;
 }
 
 .topnav {
-    background-color: #333;
+    background-color: var(--bgcolor);
     width: 100%;
     overflow: hidden;
 }
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #333;
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: large;
 }
 
 .topnav a:hover {
@@ -62,7 +73,7 @@ li {
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #2A4494;
     color: white;
 }
 
